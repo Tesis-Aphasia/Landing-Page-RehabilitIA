@@ -5,45 +5,45 @@ export default function Timeline() {
   return (
     <section
       id="timeline"
-      className="timeline-wrapper w-full py-12 md:py-24 bg-brand-gray-warm dark:bg-background-dark/50 rounded-xl"
+      className="timeline-wrapper w-full py-16 lg:py-28 bg-brand-gray-warm dark:bg-background-dark/50 rounded-xl"
     >
-      <div className="container mx-auto px-4 md:px-6">
+      <div className="container mx-auto px-8 sm:px-12 md:px-16 lg:px-24 xl:px-32">
 
         {/* Header */}
-        <div className="flex flex-col items-center justify-center text-center space-y-4 mb-12">
+        <div className="flex flex-col items-center text-center space-y-4 mb-14">
           <h2 className="timeline-title">Línea de Tiempo del Proyecto</h2>
-
-          <p className="timeline-subtitle max-w-[700px]">
-            Un resumen de nuestro progreso a lo largo del desarrollo de RehabilitIA.
+          <p className="timeline-subtitle max-w-2xl">
+            RehabilitIA inicia en 2025 como el primer sistema en español que
+            combina agentes de IA y terapias basadas en evidencia para la
+            rehabilitación del lenguaje.
           </p>
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-
-          {/* 2024 */}
-          <div className="timeline-card">
-            <h3 className="timeline-card-year">2024</h3>
-
-            <ul className="timeline-list">
-              <li>Investigación fundamental y marco teórico.</li>
-              <li>Diseño de la arquitectura del sistema.</li>
-              <li>Integración de modelos de IA (LLMs y Agentes).</li>
-              <li>Desarrollo inicial de la app móvil y la plataforma web.</li>
-              <li>Pruebas preliminares con usuarios y terapeutas.</li>
-            </ul>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl mx-auto">
 
           {/* 2025 */}
           <div className="timeline-card">
             <h3 className="timeline-card-year">2025</h3>
-
             <ul className="timeline-list">
-              <li>Evaluación de resultados y análisis de desempeño.</li>
-              <li>Optimización de flujo terapéutico y generación automática.</li>
-              <li>Mejoras basadas en retroalimentación clínica.</li>
-              <li>Redacción y presentación del documento de tesis.</li>
-              <li>Finalización del proyecto académico.</li>
+              <li>Formulación del problema y revisión de literatura.</li>
+              <li>Diseño de la arquitectura del sistema.</li>
+              <li>Integración inicial de agentes IA y modelos de lenguaje.</li>
+              <li>Desarrollo de la app móvil y la plataforma web.</li>
+              <li>Pruebas preliminares con terapeutas.</li>
+              <li>Redacción y defensa de la tesis.</li>
+            </ul>
+          </div>
+
+          {/* 2026 — Continuación */}
+          <div className="timeline-card">
+            <h3 className="timeline-card-year">2026 — En curso</h3>
+            <ul className="timeline-list">
+              <li>Extensión del sistema a nuevas terapias.</li>
+              <li>Integración de evaluación automática del habla.</li>
+              <li>Pruebas clínicas ampliadas.</li>
+              <li>Publicación académica de resultados.</li>
+              <li>Preparación para despliegue a mayor escala.</li>
             </ul>
           </div>
 

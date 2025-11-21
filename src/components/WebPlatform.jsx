@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/WebPlatform.css";
-import webMockup from "../assets/web_mockup.png"; // si quieres usar imagen local
+import webMockup from "../assets/web_app.png"; // si quieres usar imagen local
 
 export default function WebPlatform() {
   return (

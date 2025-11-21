@@ -1,47 +1,37 @@
-import React from "react";
 import "../styles/Footer.css";
 
-export default function Footer() {
+const Footer = () => {
   return (
-    <footer
-      id="footer"
-      className="footer-wrapper w-full py-6 mt-12 border-t border-solid border-t-[#e7ebf3] dark:border-t-gray-700"
-    >
-      <div className="container mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between text-center md:text-left">
+    <footer className="footer-container">
+      <p className="footer-text">© 2025 RehabilitIA — All rights reserved.</p>
 
-        {/* Branding */}
-        <div className="flex items-center gap-4 text-brand-text-dark dark:text-white mb-4 md:mb-0">
-          <img
-            src="src/assets/brain_logo.png"
-            alt="RehabilitIA Logo"
-            className="footer-logo"
-          />
-          <span className="footer-brand">RehabilitIA</span>
-        </div>
+      <p className="footer-text">Universidad de los Andes | Vigilada Mineducación</p>
 
-        {/* Copyright */}
-        <p className="footer-text text-sm text-brand-text-light dark:text-gray-400 mb-4 md:mb-0">
-          © 2025 RehabilitIA – Undergraduate Thesis Project
-        </p>
+      <p className="footer-text">
+        Reconocimiento como Universidad: Decreto 1297 del 30 de mayo de 1964.
+      </p>
 
-        {/* Uniandes Logo */}
-        <div className="flex items-center gap-2">
-          <img
-            className="footer-uniandes h-8"
-            alt="Universidad de los Andes Logo"
-            src="src/assets/logo_uniandes.png"
-          />
-        </div>
+      <p className="footer-text">
+        Reconocimiento personería jurídica: Resolución 28 del 23 de febrero de 1949 — Minjusticia.
+      </p>
 
-        {/* Department Logo */}
-        <div className="flex items-center gap-2">
-          <img
-            className="footer-uniandes h-8"
-            alt="Systems and Computer Engineering Department Logo"
-            src="src/assets/logo_disc.png"
-          />
-        </div>
-      </div>
+      <p className="footer-text">
+        Edificio Mario Laserna — Cra 1 Este No. 19A-40 Bogotá (Colombia) |
+        Tel: (571) 3394949 Ext: 2860, 2861, 2862 | Fax: (571) 3324325
+      </p>
+
+      <p className="footer-text">
+        <a
+          href="https://sistemas.uniandes.edu.co/es/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-link"
+        >
+          © 2025 — Departamento de Ingeniería de Sistemas y Computación
+        </a>
+      </p>
     </footer>
   );
-}
+};
+
+export default Footer;
