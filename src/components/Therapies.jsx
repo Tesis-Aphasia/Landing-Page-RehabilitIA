@@ -5,24 +5,23 @@ export default function Therapies() {
   return (
     <section
       id="therapies"
-      className="therapies-wrapper w-full py-12 md:py-24 bg-brand-gray-warm dark:bg-background-dark/50 rounded-xl"
+      className="therapies-wrapper w-full py-16 lg:py-28 bg-brand-gray-warm dark:bg-background-dark/50 rounded-xl"
     >
-      <div className="container mx-auto px-4 md:px-6">
+      <div className="container mx-auto px-8 sm:px-12 md:px-16 lg:px-24 xl:px-32">
 
         {/* Header */}
-        <div className="flex flex-col items-center justify-center text-center space-y-4 mb-12">
-          <h2 className="therapies-title">
-            Terapias Basadas en Evidencia
-          </h2>
+        <div className="flex flex-col items-center text-center space-y-4 mb-14">
+          <h2 className="therapies-title">Terapias Basadas en Evidencia</h2>
 
-          <p className="therapies-subtitle max-w-[700px]">
-            Utilizamos metodologías probadas para maximizar la efectividad de la rehabilitación,
-            integrando enfoques validados clínicamente como VNeST y Spaced Retrieval.
+          <p className="therapies-subtitle max-w-2xl">
+            En RehabilitIA integramos enfoques terapéuticos respaldados por décadas de 
+            investigación clínica para fortalecer las habilidades lingüísticas en personas 
+            con afasia.
           </p>
         </div>
 
         {/* Cards */}
-        <div className="grid max-w-5xl mx-auto gap-8 sm:grid-cols-2">
+        <div className="grid max-w-5xl mx-auto gap-10 sm:grid-cols-2">
 
           {/* VNeST */}
           <div className="therapy-card">
@@ -34,9 +33,9 @@ export default function Therapies() {
             </div>
 
             <p className="therapy-card-text">
-              Verb Network Strengthening Treatment fortalece las redes semánticas alrededor de los verbos,
-              mejorando la recuperación léxica y la producción de oraciones. Es uno de los tratamientos con
-              mayor evidencia de generalización en personas con afasia.
+              Verb Network Strengthening Treatment fortalece las redes semánticas 
+              alrededor de los verbos, mejorando la recuperación de palabras y la 
+              producción de oraciones en contextos reales.
             </p>
           </div>
 
@@ -50,9 +49,9 @@ export default function Therapies() {
             </div>
 
             <p className="therapy-card-text">
-              La Recuperación Espaciada es una técnica de aprendizaje que incrementa el intervalo entre
-              recordatorios a medida que el paciente responde correctamente, facilitando la consolidación
-              de memoria y la retención de palabras y frases funcionales.
+              La Recuperación Espaciada entrena la memoria mediante la evocación repetida 
+              en intervalos crecientes, favoreciendo la retención de palabras y frases 
+              funcionales para la comunicación diaria.
             </p>
           </div>
 

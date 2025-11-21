@@ -9,6 +9,7 @@ import Timeline from "./components/Timeline";
 import Architecture from "./components/Architecture";
 import Team from "./components/Team";
 import Footer from "./components/Footer";
+import aphasiaImage from "./assets/img2.png";
 
 function App() {
   return (
@@ -19,10 +20,10 @@ function App() {
       {/* --- AFASIA (usamos Section genérico) --- */}
       <Section
         id="what-is-aphasia"
-        title="¿Qué es la Afasia?"
-        text="La afasia es un trastorno adquirido del lenguaje que afecta la capacidad para hablar, entender, leer y escribir. Es causada usualmente por un accidente cerebrovascular y representa un desafío profundo para pacientes y familias. Nuestro proyecto nace para acompañar esa rehabilitación con tecnología accesible."
-        img="https://lh3.googleusercontent.com/aida-public/AB6AXuBpu8lxg9UgoFqWpOvffmO0-NdB0JlHIdNMgEapR0bkkMMkNMIh-4WYWAfMdtcJMQmefaVSvI0Q6ENF2SMKM42gTKt9p4hZwfpe45I2aY76NMosljVTpUttXOJzXt9z8ZwGCADBNPEz7w_crudCNpA0iNPb_PnuKRVnE23RIZx7oNfu0gse-eR8uRqFgTVpMbJZUDjVNPFJg_jFGcy-ZSPnT1tVH8qHldjyOLSGPqKiQqq6fVVuK5PlQ-T1CD49ZTPsuf1pCekfAg"
-        imgAlt="Áreas del lenguaje en el cerebro"
+        title="¿Qué es la afasia?"
+        text="La afasia es un trastorno adquirido del lenguaje causado por daño cerebral, generalmente después de un accidente cerebrovascular. Afecta la capacidad para hablar, comprender, leer y escribir, sin que necesariamente se alteren la memoria u otras funciones cognitivas. Dependiendo de la zona lesionada, las personas pueden hablar con fluidez pero con poco sentido, o tener un habla muy limitada aunque con buena comprensión."
+        img={aphasiaImage}
+        imgAlt="Ilustración del cerebro con áreas del lenguaje destacadas"
         background="bg-brand-gray-warm dark:bg-background-dark/50"
       />
 

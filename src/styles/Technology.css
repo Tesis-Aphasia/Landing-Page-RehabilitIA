@@ -1,51 +1,49 @@
+/* TITLE */
 .technology-title {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 1.9rem;
+  font-weight: 800;
   color: #0d121b;
+  letter-spacing: -0.01em;
+}
+
+@media (min-width: 768px) {
+  .technology-title {
+    font-size: 2.3rem;
+  }
 }
 
 .dark .technology-title {
   color: white;
 }
 
-@media (min-width: 640px) {
-  .technology-title {
-    font-size: 2.25rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .technology-title {
-    font-size: 2.5rem;
-  }
-}
-
+/* SUBTITLE */
 .technology-subtitle {
   color: #6b7280;
   font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 .dark .technology-subtitle {
   color: #9ca3af;
 }
 
-/* Cards */
+/* CARDS */
 .tech-card {
-  background: #f6f6f8;
-  padding: 1.5rem;
-  border-radius: 0.75rem;
+  background: #ffffff;
+  padding: 1.75rem;
+  border-radius: 0.85rem;
   text-align: center;
-  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
 }
 
 .dark .tech-card {
   background: #101622;
-  box-shadow: 0px 6px 14px rgba(255, 255, 255, 0.06);
+  box-shadow: 0px 6px 20px rgba(255, 255, 255, 0.04);
 }
 
 .tech-icon {
   padding: 1rem;
-  border-radius: 9999px;
+  border-radius: 50%;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -53,7 +51,7 @@
 }
 
 .tech-card-title {
-  font-size: 1.125rem;
+  font-size: 1.15rem;
   font-weight: 700;
   margin-top: 0.25rem;
   color: #0d121b;
@@ -65,11 +63,11 @@
 
 .tech-card-text {
   margin-top: 0.75rem;
-  font-size: 0.95rem;
+  font-size: 0.98rem;
   color: #6b7280;
-  line-height: 1.55;
+  line-height: 1.6;
 }
 
 .dark .tech-card-text {
-  color: #9ca3af;
+  color: #b0b0b0;
 }

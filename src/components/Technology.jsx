@@ -5,24 +5,22 @@ export default function Technology() {
   return (
     <section
       id="technology"
-      className="technology-wrapper w-full py-12 md:py-24"
+      className="technology-wrapper w-full py-16 lg:py-28"
     >
-      <div className="container mx-auto px-4 md:px-6">
+      <div className="container mx-auto px-8 sm:px-12 md:px-16 lg:px-24 xl:px-32">
 
         {/* Header */}
-        <div className="flex flex-col items-center justify-center text-center space-y-4 mb-12">
-          <h2 className="technology-title">
-            Tecnología detrás de RehabilitIA
-          </h2>
-
-          <p className="technology-subtitle max-w-[700px]">
-            Integramos herramientas avanzadas de inteligencia artificial para crear terapias dinámicas,
-            adaptativas y accesibles tanto para pacientes como para terapeutas.
+        <div className="flex flex-col items-center text-center space-y-4 mb-14">
+          <h2 className="technology-title">Tecnología detrás de RehabilitIA</h2>
+          <p className="technology-subtitle max-w-2xl">
+            RehabilitIA combina modelos de lenguaje avanzados, agentes
+            especializados y flujos de generación automática para ofrecer
+            terapia del lenguaje personalizada y basada en evidencia.
           </p>
         </div>
 
         {/* Feature Grid */}
-        <div className="technology-grid mx-auto grid max-w-7xl gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="technology-grid grid max-w-7xl mx-auto gap-10 sm:grid-cols-2 lg:grid-cols-4">
 
           {/* LLM */}
           <div className="tech-card">
@@ -31,8 +29,8 @@ export default function Technology() {
             </div>
             <h3 className="tech-card-title">Large Language Models</h3>
             <p className="tech-card-text">
-              Generación de contenido lingüístico adaptado al nivel y desempeño del paciente,
-              permitiendo miles de variaciones de ejercicios sin intervención manual.
+              Modelos de lenguaje que generan contenido terapéutico adaptado
+              al perfil y desempeño del paciente.
             </p>
           </div>
 
@@ -41,34 +39,34 @@ export default function Technology() {
             <div className="tech-icon bg-brand-green-soft/20 text-green-600">
               <span className="material-symbols-outlined text-4xl">hub</span>
             </div>
-            <h3 className="tech-card-title">Intelligent Agents</h3>
+            <h3 className="tech-card-title">Agentes Inteligentes</h3>
             <p className="tech-card-text">
-              Agentes especializados que coordinan cada fase del tratamiento, generan material terapéutico
-              y supervisan la coherencia de los ejercicios creados por la IA.
+              Agentes que estructuran los ejercicios, validan coherencia
+              clínica y adaptan la dificultad durante el tratamiento.
             </p>
           </div>
 
-          {/* Automatic Exercises */}
+          {/* Automatic Generation */}
           <div className="tech-card">
             <div className="tech-icon bg-brand-green-soft/20 text-green-600">
               <span className="material-symbols-outlined text-4xl">auto_awesome</span>
             </div>
             <h3 className="tech-card-title">Generación Automática</h3>
             <p className="tech-card-text">
-              Ejercicios personalizados que se ajustan dinámicamente al progreso del paciente,
-              manteniendo un nivel óptimo de reto y motivación.
+              Material terapéutico dinámico que evoluciona según el progreso
+              del paciente, manteniendo motivación y continuidad.
             </p>
           </div>
 
-          {/* Therapist-Assisted Personalization */}
+          {/* Personalization */}
           <div className="tech-card">
             <div className="tech-icon bg-brand-green-soft/20 text-green-600">
               <span className="material-symbols-outlined text-4xl">tune</span>
             </div>
             <h3 className="tech-card-title">Personalización Asistida</h3>
             <p className="tech-card-text">
-              Los terapeutas pueden supervisar, refinar y complementar el material generado automatizadamente,
-              integrando la experiencia clínica con la inteligencia artificial.
+              Los terapeutas pueden refinar y complementar los ejercicios,
+              integrando criterio clínico con la IA.
             </p>
           </div>
 
