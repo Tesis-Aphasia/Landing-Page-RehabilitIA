@@ -1,0 +1,36 @@
+.webplatform-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0d121b;
+}
+
+.dark .webplatform-title {
+  color: white;
+}
+
+@media (min-width: 640px) {
+  .webplatform-title {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .webplatform-title {
+    font-size: 2.5rem;
+  }
+}
+
+.webplatform-text {
+  color: #6b7280;
+  font-size: 1.1rem;
+  line-height: 1.65;
+}
+
+.dark .webplatform-text {
+  color: #9ca3af;
+}
+
+.webplatform-image {
+  border-radius: 0.75rem;
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.05);
+}

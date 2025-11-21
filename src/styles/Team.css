@@ -1,0 +1,82 @@
+/* Title */
+.team-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0d121b;
+}
+
+.dark .team-title {
+  color: white;
+}
+
+@media (min-width: 640px) {
+  .team-title {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .team-title {
+    font-size: 2.5rem;
+  }
+}
+
+/* GRID */
+.team-grid {
+  display: grid;
+}
+
+/* CARD */
+.team-card {
+  background: #f6f6f8;
+  padding: 1.75rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.04);
+}
+
+.dark .team-card {
+  background: #101622;
+  box-shadow: 0px 6px 14px rgba(255, 255, 255, 0.06);
+}
+
+/* PHOTO */
+.team-photo {
+  width: 96px;
+  height: 96px;
+  border-radius: 9999px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+/* NAME */
+.team-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0d121b;
+}
+
+.dark .team-name {
+  color: white;
+}
+
+/* ROLE */
+.team-role {
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+.dark .team-role {
+  color: #9ca3af;
+}
+
+/* AFFILIATION */
+.team-affiliation {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.dark .team-affiliation {
+  color: #9ca3af;
+}
