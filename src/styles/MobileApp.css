@@ -1,34 +1,28 @@
-/* TITLE */
+/* MobileApp Title */
 .mobileapp-title {
-  font-size: 1.9rem;
+  font-size: 2rem;
   font-weight: 800;
-  color: #0d121b;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
 }
 
 @media (min-width: 768px) {
   .mobileapp-title {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
   }
 }
 
-.dark .mobileapp-title {
-  color: white;
-}
-
-/* TEXT */
+/* MobileApp Text */
 .mobileapp-text {
-  color: #6b7280;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   line-height: 1.7;
+  color: #64748b;
 }
 
 .dark .mobileapp-text {
-  color: #b0b0b0;
+  color: #94a3b8;
 }
 
-/* IMAGE */
+/* MobileApp Image */
 .mobileapp-image {
-  border-radius: 0.9rem;
-    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.0);
+  transition: all 0.3s ease;
 }

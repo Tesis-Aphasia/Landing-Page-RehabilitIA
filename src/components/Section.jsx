@@ -1,45 +1,38 @@
 import React from "react";
+import { useLanguage } from "../context/LanguageContext";
+import { translations } from "../translations/translations";
 import "../styles/Section.css";
 
-export default function Section({
-  id,
-  title,
-  text,
-  img,
-  imgAlt = "",
-  reverse = false,
-  background = "none",
-}) {
+export default function Section({ id, img, imgAlt, reverse, background }) {
+  const { language } = useLanguage();
+  const t = translations[language];
+
   return (
     <section
       id={id}
-      className={`section-wrapper py-12 md:py-24 ${background}`}
+      className={`section-wrapper w-full py-20 lg:py-32 relative overflow-hidden ${background || ""}`}
     >
-      <div className="container mx-auto px-8 sm:px-12 md:px-16 lg:px-24 xl:px-32">
-        <div
-          className={`grid items-center gap-8 md:gap-12 lg:grid-cols-2 ${
-            reverse ? "lg:grid-flow-dense" : ""
-          }`}
-        >
-          {img && (
-            <div className="section-image">
-              <div
-                className="aspect-video rounded-xl bg-cover bg-center shadow-md"
-                style={{ backgroundImage: `url("${img}")` }}
-                aria-label={imgAlt}
-              />
-            </div>
-          )}
+      {/* Organic blob background */}
+      <div className={`section-blob ${reverse ? 'section-blob-left' : 'section-blob-right'}`}></div>
 
-          <div
-            className={`section-text flex flex-col space-y-4 ${
-              reverse ? "lg:order-first" : ""
+      <div className="container mx-auto px-8 sm:px-12 md:px-16 lg:px-24 xl:px-32 relative z-10">
+        <div
+          className={`grid items-center gap-16 lg:grid-cols-2 ${reverse ? "lg:grid-flow-dense" : ""
             }`}
-          >
-            <h2 className="section-title">{title}</h2>
-            <p className="section-body max-w-[650px]">
-              {text}
-            </p>
+        >
+          {/* TEXT BLOCK */}
+          <div className={`flex flex-col justify-center space-y-6 ${reverse ? "lg:col-start-2 fade-in-right" : "fade-in-left"}`}>
+            <h2 className="section-title gradient-text">{t.aphasiaTitle}</h2>
+            <p className="section-text max-w-xl">{t.aphasiaText}</p>
+          </div>
+
+          {/* IMAGE */}
+          <div className={`section-image-wrapper ${reverse ? "lg:col-start-1 lg:row-start-1 fade-in-left" : "fade-in-right"}`}>
+            <img
+              className="section-image w-full h-auto rounded-3xl shadow-soft-lg hover-lift"
+              src={img}
+              alt={imgAlt}
+            />
           </div>
         </div>
       </div>

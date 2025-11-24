@@ -6,18 +6,18 @@ export default function MobileApp() {
   return (
     <section
       id="mobile-app"
-      className="mobileapp-wrapper w-full py-16 lg:py-28 bg-brand-gray-warm dark:bg-background-dark/50 rounded-xl"
+      className="mobileapp-wrapper w-full py-16 lg:py-28 relative overflow-hidden"
     >
       <div className="container mx-auto grid items-center gap-12 px-8 sm:px-12 md:px-16 lg:px-24 xl:px-32 lg:grid-cols-2">
 
         {/* TEXT BLOCK */}
-        <div className="flex flex-col justify-center space-y-6">
-          <h2 className="mobileapp-title">Aplicación Móvil para Pacientes</h2>
+        <div className="flex flex-col justify-center space-y-6 scroll-reveal">
+          <h2 className="mobileapp-title gradient-text">Aplicación Móvil para Pacientes</h2>
 
           <p className="mobileapp-text max-w-xl">
-            La aplicación móvil de RehabilitIA está diseñada específicamente para personas 
-            con afasia: navegación simple, pocas opciones por pantalla, botones amplios, 
-            instrucciones claras y soporte visual–auditivo. Cada ejercicio se adapta 
+            La aplicación móvil de RehabilitIA está diseñada específicamente para personas
+            con afasia: navegación simple, pocas opciones por pantalla, botones amplios,
+            instrucciones claras y soporte visual–auditivo. Cada ejercicio se adapta
             automáticamente al desempeño del paciente, siguiendo VNeST y Spaced Retrieval.
           </p>
         </div>
@@ -25,7 +25,7 @@ export default function MobileApp() {
         {/* IMAGE */}
         <div className="w-full flex justify-center">
           <img
-            className="mobileapp-image max-w-[260px] rounded-xl shadow-lg"
+            className="mobileapp-image max-w-[260px] rounded-2xl shadow-soft-lg hover-lift"
             src={appMockup}
             alt="Mockup de la aplicación RehabilitIA"
           />

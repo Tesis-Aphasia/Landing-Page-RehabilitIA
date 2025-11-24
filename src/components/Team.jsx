@@ -5,13 +5,15 @@ export default function Team() {
   return (
     <section
       id="team"
-      className="team-wrapper w-full py-16 lg:py-28 bg-brand-gray-warm dark:bg-background-dark/50 rounded-xl"
+      className="team-wrapper w-full py-16 lg:py-28 relative overflow-hidden"
     >
-      <div className="container mx-auto px-8 sm:px-12 md:px-16 lg:px-24 xl:px-32">
+      <div className="team-bg-orb"></div>
+
+      <div className="container mx-auto px-8 sm:px-12 md:px-16 lg:px-24 xl:px-32 relative z-10">
 
         {/* Header */}
-        <div className="flex flex-col items-center text-center space-y-4 mb-14">
-          <h2 className="team-title">Nuestro Equipo – Investigadores</h2>
+        <div className="flex flex-col items-center text-center space-y-4 mb-14 scroll-reveal">
+          <h2 className="team-title gradient-text">Nuestro Equipo – Investigadores</h2>
           <p className="team-subtitle max-w-2xl">
             RehabilitIA es desarrollado por un equipo interdisciplinario de la
             Universidad de los Andes, integrando ingeniería, diseño centrado en el
@@ -23,7 +25,7 @@ export default function Team() {
         <div className="team-grid grid max-w-5xl mx-auto gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
 
           {/* Rubén */}
-          <div className="team-card">
+          <div className="team-card soft-card hover-lift">
             <a
               href="https://www.linkedin.com/in/ruben-francisco-manrique/"
               target="_blank"
@@ -40,11 +42,11 @@ export default function Team() {
             <p className="team-role">Lead Researcher</p>
             <p className="team-affiliation">rf.manrique@uniandes.edu.co</p>
           </div>
-          
+
           {/* Andrea Herrera */}
-          <div className="team-card">
+          <div className="team-card glass hover-glow">
             <a
-              href="https://www.linkedin.com/in/andrea-herrera-564253/"  
+              href="https://www.linkedin.com/in/andrea-herrera-564253/"
               target="_blank"
               rel="noopener noreferrer"
               className="team-photo-wrapper"
@@ -61,7 +63,7 @@ export default function Team() {
           </div>
 
           {/* Andrea Galindo */}
-          <div className="team-card">
+          <div className="team-card glass hover-glow">
             <a
               href="https://www.linkedin.com/in/algalindoc/"
               target="_blank"
@@ -80,7 +82,7 @@ export default function Team() {
           </div>
 
           {/* Santiago */}
-          <div className="team-card">
+          <div className="team-card glass hover-glow">
             <a
               href="https://www.linkedin.com/in/santiagonavarrete19"
               target="_blank"

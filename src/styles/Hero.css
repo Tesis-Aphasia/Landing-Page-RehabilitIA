@@ -1,47 +1,102 @@
-/* TITLE */
+/* Hero Section - Minimalist Centered */
+.hero-section {
+  position: relative;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to bottom, #fafafa 0%, #faf8f3 100%);
+  padding: 8rem 0 3rem 0;
+}
+
+.dark .hero-section {
+  background: linear-gradient(to bottom, #2d3748 0%, #1a202c 100%);
+}
+
+/* Organic Blob Backgrounds - Softer */
+.hero-orb {
+  position: absolute;
+  opacity: 0.35;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero-orb-1 {
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, #fde8e0, transparent);
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  top: -150px;
+  right: -150px;
+  animation: float 12s ease-in-out infinite;
+}
+
+.hero-orb-2 {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, #d4e5a3, transparent);
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  bottom: -100px;
+  left: -100px;
+  animation: float 15s ease-in-out infinite reverse;
+}
+
+/* TITLE - Larger and Centered */
 .hero-title {
-  color: var(--brand-text-dark, #0d121b);
-  font-size: 1.2rem;
-  font-weight: 900;
-  letter-spacing: -0.01em;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  color: #2d3748;
 }
 
 @media (min-width: 640px) {
   .hero-title {
-    font-size: 1.2rem;
+    font-size: 3rem;
   }
 }
 
 @media (min-width: 1024px) {
   .hero-title {
-    font-size: 2.4rem;
+    font-size: 3.75rem;
   }
 }
 
 .dark .hero-title {
-  color: white;
+  color: #f7fafc;
 }
 
-/* SUBTITLE */
+/* SUBTITLE - Centered */
 .hero-subtitle {
-  color: var(--brand-text-light, #6b7280);
-  font-size: 1.05rem;
-  line-height: 1.65;
+  color: #6b7280;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  font-weight: 400;
 }
 
 @media (min-width: 768px) {
   .hero-subtitle {
-    font-size: 1.15rem;
+    font-size: 1.25rem;
   }
 }
 
 .dark .hero-subtitle {
-  color: #a3a3a3;
+  color: #cbd5e0;
 }
 
-/* IMAGE */
+/* IMAGE - Larger with organic background */
+.hero-image-wrapper {
+  position: relative;
+}
+
 .hero-image {
-  border-radius: 1rem;
+  border-radius: 2rem;
   background-size: contain !important;
-  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 20px 50px rgba(172, 211, 232, 0.2);
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.hero-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 25px 60px rgba(172, 211, 232, 0.25);
 }

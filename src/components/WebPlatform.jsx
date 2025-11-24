@@ -12,21 +12,21 @@ export default function WebPlatform() {
 
         {/* IMAGE */}
         <div
-          className="w-full bg-center bg-no-repeat aspect-video bg-contain rounded-xl webplatform-image"
+          className="w-full bg-center bg-no-repeat aspect-video bg-contain rounded-2xl webplatform-image shadow-soft-lg hover-lift"
           style={{
             backgroundImage: `url(${webMockup})`,
           }}
         />
 
         {/* TEXT BLOCK */}
-        <div className="flex flex-col justify-center space-y-6">
-          <h2 className="webplatform-title">Plataforma Web para Terapeutas</h2>
+        <div className="flex flex-col justify-center space-y-6 scroll-reveal">
+          <h2 className="webplatform-title gradient-text">Plataforma Web para Terapeutas</h2>
 
           <p className="webplatform-text max-w-xl">
-            La plataforma web ofrece a los terapeutas un panel claro y completo 
-            para revisar el progreso de cada paciente, analizar su desempeño, ajustar 
-            ejercicios generados por IA y gestionar solicitudes de registro profesional. 
-            Permite integrar criterio clínico con herramientas inteligentes para una 
+            La plataforma web ofrece a los terapeutas un panel claro y completo
+            para revisar el progreso de cada paciente, analizar su desempeño, ajustar
+            ejercicios generados por IA y gestionar solicitudes de registro profesional.
+            Permite integrar criterio clínico con herramientas inteligentes para una
             rehabilitación más precisa y personalizada.
           </p>
         </div>

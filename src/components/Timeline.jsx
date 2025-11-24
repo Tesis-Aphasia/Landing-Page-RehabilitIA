@@ -5,13 +5,13 @@ export default function Timeline() {
   return (
     <section
       id="timeline"
-      className="timeline-wrapper w-full py-16 lg:py-28 bg-brand-gray-warm dark:bg-background-dark/50 rounded-xl"
+      className="timeline-wrapper w-full py-16 lg:py-28 relative overflow-hidden"
     >
       <div className="container mx-auto px-8 sm:px-12 md:px-16 lg:px-24 xl:px-32">
 
         {/* Header */}
-        <div className="flex flex-col items-center text-center space-y-4 mb-14">
-          <h2 className="timeline-title">Línea de Tiempo del Proyecto</h2>
+        <div className="flex flex-col items-center text-center space-y-4 mb-14 scroll-reveal">
+          <h2 className="timeline-title gradient-text">Línea de Tiempo del Proyecto</h2>
           <p className="timeline-subtitle max-w-2xl">
             RehabilitIA inicia en 2025 como el primer sistema en español que
             combina agentes de IA y terapias basadas en evidencia para la
@@ -23,7 +23,7 @@ export default function Timeline() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl mx-auto">
 
           {/* 2025 */}
-          <div className="timeline-card">
+          <div className="timeline-card soft-card hover-lift">
             <h3 className="timeline-card-year">2025</h3>
             <ul className="timeline-list">
               <li>Formulación del problema y revisión de literatura.</li>
@@ -36,7 +36,7 @@ export default function Timeline() {
           </div>
 
           {/* 2026 — Continuación */}
-          <div className="timeline-card">
+          <div className="timeline-card glass hover-glow">
             <h3 className="timeline-card-year">2026 — En curso</h3>
             <ul className="timeline-list">
               <li>Extensión del sistema a nuevas terapias.</li>
