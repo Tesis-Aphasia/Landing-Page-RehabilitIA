@@ -70,14 +70,12 @@ export const translations = {
       "Diseño de la arquitectura del sistema.",
       "Integración inicial de agentes IA y modelos de lenguaje.",
       "Desarrollo de la app móvil y la plataforma web.",
-      "Pruebas preliminares con terapeutas.",
-      "Redacción y defensa de la tesis."
+      "Redacción de la tesis inicial."
     ],
     timeline2026Year: "2026 — En curso",
     timeline2026Items: [
+      "Pruebas preliminares con terapeutas.",
       "Extensión del sistema a nuevas terapias.",
-      "Integración de evaluación automática del habla.",
-      "Pruebas clínicas ampliadas.",
       "Publicación académica de resultados.",
       "Preparación para despliegue a mayor escala."
     ],
