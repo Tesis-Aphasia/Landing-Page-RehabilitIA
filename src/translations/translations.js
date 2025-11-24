@@ -82,11 +82,11 @@ export const translations = {
 
     // Team
     teamTitle: "Nuestro Equipo – Investigadores",
-    teamSubtitle: "RehabilitIA es desarrollado por un equipo interdisciplinario de la Universidad de los Andes, integrando ingeniería, diseño centrado en el usuario e investigación en tecnologías para la salud.",
+    // teamSubtitle: "RehabilitIA es desarrollado por un equipo interdisciplinario de la Universidad de los Andes, integrando ingeniería, diseño centrado en el usuario e investigación en tecnologías para la salud.",
     teamRubenName: "Prof. Rubén Manrique",
     teamRubenRole: "Lead Researcher",
     teamAndreaHName: "Prof. Andrea Herrera",
-    teamAndreaHRole: "Faculty Advisor",
+    teamAndreaHRole: "Lead Researcher",
     teamAndreaHAffiliation: "Universidad de los Andes",
     teamAndreaGName: "Andrea Galindo",
     teamAndreaGRole: "Researcher",
@@ -172,25 +172,23 @@ export const translations = {
       "System architecture design.",
       "Initial integration of AI agents and language models.",
       "Development of mobile app and web platform.",
-      "Preliminary testing with therapists.",
-      "Thesis writing and defense."
+      "Thesis initial writing."
     ],
     timeline2026Year: "2026 — Ongoing",
     timeline2026Items: [
+      "Preliminary testing with therapists.",
       "Extension of the system to new therapies.",
-      "Integration of automatic speech assessment.",
-      "Expanded clinical trials.",
       "Academic publication of results.",
       "Preparation for larger-scale deployment."
     ],
 
     // Team
     teamTitle: "Our Team – Researchers",
-    teamSubtitle: "RehabilitIA is developed by an interdisciplinary team from Universidad de los Andes, integrating engineering, user-centered design, and research in health technologies.",
+    // teamSubtitle: "RehabilitIA is developed by an interdisciplinary team from Universidad de los Andes, integrating engineering, user-centered design, and research in health technologies.",
     teamRubenName: "Prof. Rubén Manrique",
     teamRubenRole: "Lead Researcher",
     teamAndreaHName: "Prof. Andrea Herrera",
-    teamAndreaHRole: "Faculty Advisor",
+    teamAndreaHRole: "Lead Researcher",
     teamAndreaHAffiliation: "Universidad de los Andes",
     teamAndreaGName: "Andrea Galindo",
     teamAndreaGRole: "Researcher",
