@@ -7,7 +7,6 @@ import Technology from "./components/Technology";
 import MobileApp from "./components/MobileApp";
 import WebPlatform from "./components/WebPlatform";
 import Timeline from "./components/Timeline";
-import Architecture from "./components/Architecture";
 import Team from "./components/Team";
 import Footer from "./components/Footer";
 import aphasiaImage from "./assets/img2.png";
@@ -62,9 +61,6 @@ function App() {
 
       {/* --- LÍNEA DE TIEMPO --- */}
       <Timeline />
-
-      {/* --- ARQUITECTURA --- */}
-      <Architecture />
 
       {/* --- EQUIPO --- */}
       <Team />

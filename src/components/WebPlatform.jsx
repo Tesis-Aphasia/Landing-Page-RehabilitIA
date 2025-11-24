@@ -1,8 +1,13 @@
 import React from "react";
+import { useLanguage } from "../context/LanguageContext";
+import { translations } from "../translations/translations";
 import "../styles/WebPlatform.css";
-import webMockup from "../assets/web_app.png"; // si quieres usar imagen local
+import webMockup from "../assets/web_app.png";
 
 export default function WebPlatform() {
+  const { language } = useLanguage();
+  const t = translations[language];
+
   return (
     <section
       id="web-platform"
@@ -20,14 +25,10 @@ export default function WebPlatform() {
 
         {/* TEXT BLOCK */}
         <div className="flex flex-col justify-center space-y-6 scroll-reveal">
-          <h2 className="webplatform-title gradient-text">Plataforma Web para Terapeutas</h2>
+          <h2 className="webplatform-title gradient-text">{t.webTitle}</h2>
 
           <p className="webplatform-text max-w-xl">
-            La plataforma web ofrece a los terapeutas un panel claro y completo
-            para revisar el progreso de cada paciente, analizar su desempeño, ajustar
-            ejercicios generados por IA y gestionar solicitudes de registro profesional.
-            Permite integrar criterio clínico con herramientas inteligentes para una
-            rehabilitación más precisa y personalizada.
+            {t.webText}
           </p>
         </div>
 

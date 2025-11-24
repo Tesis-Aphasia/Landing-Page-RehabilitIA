@@ -43,91 +43,65 @@ export const translations = {
 
     // VNeST Modal
     vnestModalTitle: "VNeST - Verb Network Strengthening Treatment",
-    vnestModalContent: `
-      <h3>¿Qué es VNeST?</h3>
-      <p>Verb Network Strengthening Treatment (VNeST) es un enfoque de rehabilitación del lenguaje diseñado para personas con afasia, particularmente aquellas con variantes anómicas o no fluentes. A diferencia de las intervenciones tradicionales centradas en sustantivos, VNeST coloca los verbos en el centro de la terapia, bajo el supuesto de que los verbos activan redes semánticas más amplias y son esenciales para la construcción de oraciones.</p>
-      
-      <h3>¿Cómo funciona?</h3>
-      <p>La terapia se desarrolla típicamente a través de fases estructuradas:</p>
-      <ul>
-        <li><strong>Fase 1:</strong> Los pacientes seleccionan un verbo central y generan combinaciones agente-objeto (ej: "el piloto conduce el avión" o "el granjero conduce el tractor")</li>
-        <li><strong>Fase 2:</strong> Se expanden estas oraciones agregando detalles contextuales como dónde, por qué o cuándo (ej: "el piloto conduce el avión en el aeropuerto todos los días")</li>
-        <li><strong>Fase 3:</strong> Los pacientes son desafiados con juicios de plausibilidad semántica, decidiendo si las oraciones generadas son significativas o no</li>
-        <li><strong>Fase 4:</strong> Se refuerza la recuperación de verbos pidiendo explícitamente al paciente que identifique el verbo objetivo practicado durante la sesión</li>
-      </ul>
-      
-      <h3>Beneficios</h3>
-      <ul>
-        <li>Mejora tanto la producción como la comprensión del lenguaje</li>
-        <li>Las mejoras se extienden más allá de los elementos entrenados al habla espontánea</li>
-        <li>Fortalece las conexiones entre verbos y roles temáticos</li>
-        <li>Promueve comunicación más funcional y generalizable</li>
-        <li>Puede implementarse mediante herramientas tecnológicas (web/móvil) para práctica en casa</li>
-      </ul>
-    `,
+    vnestModalContent: "<h3>¿Qué es VNeST?</h3><p>Verb Network Strengthening Treatment (VNeST) es un enfoque de rehabilitación del lenguaje diseñado para personas con afasia, particularmente aquellas con variantes anómicas o no fluentes. A diferencia de las intervenciones tradicionales centradas en sustantivos, VNeST coloca los verbos en el centro de la terapia, bajo el supuesto de que los verbos activan redes semánticas más amplias y son esenciales para la construcción de oraciones.</p><h3>¿Cómo funciona?</h3><p>La terapia se desarrolla típicamente a través de fases estructuradas:</p><ul><li><strong>Fase 1:</strong> Los pacientes seleccionan un verbo central y generan combinaciones agente-objeto (ej: \"el piloto conduce el avión\" o \"el granjero conduce el tractor\")</li><li><strong>Fase 2:</strong> Se expanden estas oraciones agregando detalles contextuales como dónde, por qué o cuándo (ej: \"el piloto conduce el avión en el aeropuerto todos los días\")</li><li><strong>Fase 3:</strong> Los pacientes son desafiados con juicios de plausibilidad semántica, decidiendo si las oraciones generadas son significativas o no</li><li><strong>Fase 4:</strong> Se refuerza la recuperación de verbos pidiendo explícitamente al paciente que identifique el verbo objetivo practicado durante la sesión</li></ul><h3>Beneficios</h3><ul><li>Mejora tanto la producción como la comprensión del lenguaje</li><li>Las mejoras se extienden más allá de los elementos entrenados al habla espontánea</li><li>Fortalece las conexiones entre verbos y roles temáticos</li><li>Promueve comunicación más funcional y generalizable</li><li>Puede implementarse mediante herramientas tecnológicas (web/móvil) para práctica en casa</li></ul>",
 
     // SR Modal
     srModalTitle: "Spaced Retrieval Training - Entrenamiento de Recuperación Espaciada",
-    srModalContent: `
-      <h3>¿Qué es Spaced Retrieval Training?</h3>
-      <p>Spaced Retrieval Training (SRT) es una intervención basada en memoria diseñada para mejorar la retención a largo plazo de información específica en personas con deterioro cognitivo o afasia. A diferencia de las terapias centradas en la comprensión o producción del lenguaje, SRT aprovecha el aprendizaje implícito al pedir repetidamente a los pacientes que recuerden información objetivo en intervalos progresivamente más largos.</p>
-      
-      <h3>¿Cómo funciona?</h3>
-      <p>La técnica funciona de la siguiente manera:</p>
-      <ul>
-        <li>Se presenta información al paciente</li>
-        <li>Se le pide que la recuerde después de intervalos específicos (ej: 30 segundos, 1 minuto, 2 minutos)</li>
-        <li>Si la respuesta es correcta, el intervalo aumenta</li>
-        <li>Si es incorrecta, la información se reintroduce y el intervalo se acorta</li>
-      </ul>
-      
-      <h3>Aplicaciones</h3>
-      <p>Esta técnica es particularmente efectiva para ayudar a los pacientes a recordar:</p>
-      <ul>
-        <li>Nombres de personas importantes</li>
-        <li>Instrucciones y rutinas diarias</li>
-        <li>Ubicaciones y lugares</li>
-        <li>Estrategias de comunicación</li>
-      </ul>
-      
-      <h3>Beneficios</h3>
-      <ul>
-        <li>Mejora la memoria funcional a largo plazo</li>
-        <li>Ha demostrado éxito en entornos clínicos</li>
-        <li>Puede implementarse en herramientas digitales</li>
-        <li>Aprovecha el aprendizaje implícito</li>
-      </ul>
-    `,
+    srModalContent: "<h3>¿Qué es Spaced Retrieval Training?</h3><p>Spaced Retrieval Training (SRT) es una intervención basada en memoria diseñada para mejorar la retención a largo plazo de información específica en personas con deterioro cognitivo o afasia. A diferencia de las terapias centradas en la comprensión o producción del lenguaje, SRT aprovecha el aprendizaje implícito al pedir repetidamente a los pacientes que recuerden información objetivo en intervalos progresivamente más largos.</p><h3>¿Cómo funciona?</h3><p>La técnica funciona de la siguiente manera:</p><ul><li>Se presenta información al paciente</li><li>Se le pide que la recuerde después de intervalos específicos (ej: 30 segundos, 1 minuto, 2 minutos)</li><li>Si la respuesta es correcta, el intervalo aumenta</li><li>Si es incorrecta, la información se reintroduce y el intervalo se acorta</li></ul><h3>Aplicaciones</h3><p>Esta técnica es particularmente efectiva para ayudar a los pacientes a recordar:</p><ul><li>Nombres de personas importantes</li><li>Instrucciones y rutinas diarias</li><li>Ubicaciones y lugares</li><li>Estrategias de comunicación</li></ul><h3>Beneficios</h3><ul><li>Mejora la memoria funcional a largo plazo</li><li>Ha demostrado éxito en entornos clínicos</li><li>Puede implementarse en herramientas digitales</li><li>Aprovecha el aprendizaje implícito</li></ul>",
 
     // Tech Modal
     techModalTitle: "Tecnologías de IA para Rehabilitación",
-    techModalContent: `
-      <h3>Modelos de Lenguaje Grande (LLM)</h3>
-      <p>Utilizamos modelos de lenguaje avanzados para generar contenido terapéutico personalizado que se adapta al nivel y necesidades de cada paciente. Estos modelos son capaces de crear ejercicios contextualmente apropiados y culturalmente relevantes para hispanohablantes.</p>
-      
-      <h3>Agentes Inteligentes</h3>
-      <p>Nuestros agentes de IA trabajan en conjunto para:</p>
-      <ul>
-        <li>Estructurar ejercicios terapéuticos coherentes y clínicamente válidos</li>
-        <li>Validar la coherencia clínica del contenido generado</li>
-        <li>Adaptar la dificultad según el desempeño del paciente</li>
-        <li>Personalizar el contenido culturalmente para el contexto hispanohablante</li>
-        <li>Mantener la continuidad terapéutica entre sesiones</li>
-      </ul>
-      
-      <h3>Generación Automática de Contenido</h3>
-      <p>El sistema genera automáticamente:</p>
-      <ul>
-        <li>Ejercicios adaptados al progreso individual del paciente</li>
-        <li>Material culturalmente apropiado y contextualizado</li>
-        <li>Contenido variado para mantener la motivación y el compromiso</li>
-        <li>Retroalimentación personalizada basada en el desempeño</li>
-        <li>Secuencias de ejercicios que siguen principios terapéuticos establecidos</li>
-      </ul>
-      
-      <h3>Integración de Tecnologías</h3>
-      <p>Estas tres tecnologías trabajan en conjunto para crear una experiencia terapéutica completa, adaptativa y basada en evidencia científica, facilitando tanto la práctica autónoma como el seguimiento por parte de terapeutas profesionales.</p>
-    `,
+    techModalContent: "<h3>Modelos de Lenguaje Grande (LLM)</h3><p>Utilizamos modelos de lenguaje avanzados para generar contenido terapéutico personalizado que se adapta al nivel y necesidades de cada paciente. Estos modelos son capaces de crear ejercicios contextualmente apropiados y culturalmente relevantes para hispanohablantes.</p><h3>Agentes Inteligentes</h3><p>Nuestros agentes de IA trabajan en conjunto para:</p><ul><li>Estructurar ejercicios terapéuticos coherentes y clínicamente válidos</li><li>Validar la coherencia clínica del contenido generado</li><li>Adaptar la dificultad según el desempeño del paciente</li><li>Personalizar el contenido culturalmente para el contexto hispanohablante</li><li>Mantener la continuidad terapéutica entre sesiones</li></ul><h3>Generación Automática de Contenido</h3><p>El sistema genera automáticamente:</p><ul><li>Ejercicios adaptados al progreso individual del paciente</li><li>Material culturalmente apropiado y contextualizado</li><li>Contenido variado para mantener la motivación y el compromiso</li><li>Retroalimentación personalizada basada en el desempeño</li><li>Secuencias de ejercicios que siguen principios terapéuticos establecidos</li></ul><h3>Integración de Tecnologías</h3><p>Estas tres tecnologías trabajan en conjunto para crear una experiencia terapéutica completa, adaptativa y basada en evidencia científica, facilitando tanto la práctica autónoma como el seguimiento por parte de terapeutas profesionales.</p>",
+
+    // Mobile App
+    mobileTitle: "Aplicación Móvil para Pacientes",
+    mobileText: "La aplicación móvil de RehabilitIA está diseñada específicamente para personas con afasia: navegación simple, pocas opciones por pantalla, botones amplios, instrucciones claras y soporte visual–auditivo. Cada ejercicio se adapta automáticamente al desempeño del paciente, siguiendo VNeST y Spaced Retrieval.",
+
+    // Web Platform
+    webTitle: "Plataforma Web para Terapeutas",
+    webText: "La plataforma web ofrece a los terapeutas un panel claro y completo para revisar el progreso de cada paciente, analizar su desempeño, ajustar ejercicios generados por IA y gestionar solicitudes de registro profesional. Permite integrar criterio clínico con herramientas inteligentes para una rehabilitación más precisa y personalizada.",
+
+    // Timeline
+    timelineTitle: "Línea de Tiempo del Proyecto",
+    timelineSubtitle: "RehabilitIA inicia en 2025 como el primer sistema en español que combina agentes de IA y terapias basadas en evidencia para la rehabilitación del lenguaje.",
+    timeline2025Year: "2025",
+    timeline2025Items: [
+      "Formulación del problema y revisión de literatura.",
+      "Diseño de la arquitectura del sistema.",
+      "Integración inicial de agentes IA y modelos de lenguaje.",
+      "Desarrollo de la app móvil y la plataforma web.",
+      "Pruebas preliminares con terapeutas.",
+      "Redacción y defensa de la tesis."
+    ],
+    timeline2026Year: "2026 — En curso",
+    timeline2026Items: [
+      "Extensión del sistema a nuevas terapias.",
+      "Integración de evaluación automática del habla.",
+      "Pruebas clínicas ampliadas.",
+      "Publicación académica de resultados.",
+      "Preparación para despliegue a mayor escala."
+    ],
+
+    // Team
+    teamTitle: "Nuestro Equipo – Investigadores",
+    teamSubtitle: "RehabilitIA es desarrollado por un equipo interdisciplinario de la Universidad de los Andes, integrando ingeniería, diseño centrado en el usuario e investigación en tecnologías para la salud.",
+    teamRubenName: "Prof. Rubén Manrique",
+    teamRubenRole: "Lead Researcher",
+    teamAndreaHName: "Prof. Andrea Herrera",
+    teamAndreaHRole: "Faculty Advisor",
+    teamAndreaHAffiliation: "Universidad de los Andes",
+    teamAndreaGName: "Andrea Galindo",
+    teamAndreaGRole: "Researcher",
+    teamSantiagoName: "Santiago Navarrete",
+    teamSantiagoRole: "Researcher",
+
+    // Footer
+    footerRights: "Todos los derechos reservados.",
+    footerUniversity: "Universidad de los Andes | Vigilada Mineducación",
+    footerRecognition: "Reconocimiento como Universidad: Decreto 1297 del 30 de mayo de 1964.",
+    footerLegalEntity: "Reconocimiento personería jurídica: Resolución 28 del 23 de febrero de 1949 — Minjusticia.",
+    footerAddress: "Edificio Mario Laserna — Cra 1 Este No. 19A-40 Bogotá (Colombia) | Tel: (571) 3394949 Ext: 2860, 2861, 2862 | Fax: (571) 3324325",
+    footerDepartment: "© 2025 — Departamento de Ingeniería de Sistemas y Computación",
   },
   en: {
     // Navbar
@@ -173,90 +147,64 @@ export const translations = {
 
     // VNeST Modal
     vnestModalTitle: "VNeST - Verb Network Strengthening Treatment",
-    vnestModalContent: `
-      <h3>What is VNeST?</h3>
-      <p>Verb Network Strengthening Treatment (VNeST) is a language rehabilitation approach designed for individuals with aphasia, particularly those with anomic or non-fluent variants. Unlike traditional noun-focused interventions, VNeST places verbs at the center of therapy, under the assumption that verbs activate wider semantic networks and are essential for sentence construction.</p>
-      
-      <h3>How does it work?</h3>
-      <p>The therapy typically unfolds through structured phases:</p>
-      <ul>
-        <li><strong>Phase 1:</strong> Patients select a central verb and generate agent-object combinations (e.g., "the pilot drives the plane" or "the farmer drives the tractor")</li>
-        <li><strong>Phase 2:</strong> These sentences are expanded by adding contextual details such as where, why, or when (e.g., "the pilot drives the plane at the airport every day")</li>
-        <li><strong>Phase 3:</strong> Patients are challenged with judgments of semantic plausibility, deciding whether newly generated sentences are meaningful or not</li>
-        <li><strong>Phase 4:</strong> Verb retrieval is reinforced by explicitly asking the patient to identify the target verb practiced during the session</li>
-      </ul>
-      
-      <h3>Benefits</h3>
-      <ul>
-        <li>Demonstrates positive effects on both production and comprehension of language</li>
-        <li>Improvements extend beyond trained items into spontaneous speech</li>
-        <li>Strengthens connections between verbs and thematic roles</li>
-        <li>Promotes more functional and generalizable communication</li>
-        <li>Can be implemented through technological tools (web/mobile) for home practice</li>
-      </ul>
-    `,
+    vnestModalContent: "<h3>What is VNeST?</h3><p>Verb Network Strengthening Treatment (VNeST) is a language rehabilitation approach designed for individuals with aphasia, particularly those with anomic or non-fluent variants. Unlike traditional noun-focused interventions, VNeST places verbs at the center of therapy, under the assumption that verbs activate wider semantic networks and are essential for sentence construction.</p><h3>How does it work?</h3><p>The therapy typically unfolds through structured phases:</p><ul><li><strong>Phase 1:</strong> Patients select a central verb and generate agent-object combinations (e.g., \"the pilot drives the plane\" or \"the farmer drives the tractor\")</li><li><strong>Phase 2:</strong> These sentences are expanded by adding contextual details such as where, why, or when (e.g., \"the pilot drives the plane at the airport every day\")</li><li><strong>Phase 3:</strong> Patients are challenged with judgments of semantic plausibility, deciding whether newly generated sentences are meaningful or not</li><li><strong>Phase 4:</strong> Verb retrieval is reinforced by explicitly asking the patient to identify the target verb practiced during the session</li></ul><h3>Benefits</h3><ul><li>Demonstrates positive effects on both production and comprehension of language</li><li>Improvements extend beyond trained items into spontaneous speech</li><li>Strengthens connections between verbs and thematic roles</li><li>Promotes more functional and generalizable communication</li><li>Can be implemented through technological tools (web/mobile) for home practice</li></ul>",
 
     // SR Modal
     srModalTitle: "Spaced Retrieval Training",
-    srModalContent: `
-      <h3>What is Spaced Retrieval Training?</h3>
-      <p>Spaced Retrieval Training (SRT) is a memory-based intervention designed to enhance long-term retention of specific information in individuals with cognitive impairment or aphasia. Unlike therapies focused on language comprehension or production, SRT leverages implicit learning by repeatedly asking patients to recall targeted information over progressively longer intervals.</p>
-      
-      <h3>How does it work?</h3>
-      <p>The technique works as follows:</p>
-      <ul>
-        <li>Information is presented to the patient</li>
-        <li>They are asked to recall it after specific intervals (e.g., 30 seconds, 1 minute, 2 minutes)</li>
-        <li>If the response is correct, the interval increases</li>
-        <li>If incorrect, the information is reintroduced and the interval is shortened</li>
-      </ul>
-      
-      <h3>Applications</h3>
-      <p>This technique is particularly effective in helping patients remember:</p>
-      <ul>
-        <li>Names of important people</li>
-        <li>Instructions and daily routines</li>
-        <li>Locations and places</li>
-        <li>Communication strategies</li>
-      </ul>
-      
-      <h3>Benefits</h3>
-      <ul>
-        <li>Improves long-term functional memory</li>
-        <li>Has shown success in clinical settings</li>
-        <li>Can be implemented in digital tools</li>
-        <li>Leverages implicit learning</li>
-      </ul>
-    `,
+    srModalContent: "<h3>What is Spaced Retrieval Training?</h3><p>Spaced Retrieval Training (SRT) is a memory-based intervention designed to enhance long-term retention of specific information in individuals with cognitive impairment or aphasia. Unlike therapies focused on language comprehension or production, SRT leverages implicit learning by repeatedly asking patients to recall targeted information over progressively longer intervals.</p><h3>How does it work?</h3><p>The technique works as follows:</p><ul><li>Information is presented to the patient</li><li>They are asked to recall it after specific intervals (e.g., 30 seconds, 1 minute, 2 minutes)</li><li>If the response is correct, the interval increases</li><li>If incorrect, the information is reintroduced and the interval is shortened</li></ul><h3>Applications</h3><p>This technique is particularly effective in helping patients remember:</p><ul><li>Names of important people</li><li>Instructions and daily routines</li><li>Locations and places</li><li>Communication strategies</li></ul><h3>Benefits</h3><ul><li>Improves long-term functional memory</li><li>Has shown success in clinical settings</li><li>Can be implemented in digital tools</li><li>Leverages implicit learning</li></ul>",
 
     // Tech Modal
     techModalTitle: "AI Technologies for Rehabilitation",
-    techModalContent: `
-      <h3>Large Language Models (LLM)</h3>
-      <p>We use advanced language models to generate personalized therapeutic content that adapts to each patient's level and needs. These models are capable of creating contextually appropriate and culturally relevant exercises for Spanish speakers.</p>
-      
-      <h3>Intelligent Agents</h3>
-      <p>Our AI agents work together to:</p>
-      <ul>
-        <li>Structure coherent and clinically valid therapeutic exercises</li>
-        <li>Validate the clinical coherence of generated content</li>
-        <li>Adapt difficulty based on patient performance</li>
-        <li>Culturally personalize content for the Spanish-speaking context</li>
-        <li>Maintain therapeutic continuity between sessions</li>
-      </ul>
-      
-      <h3>Automatic Content Generation</h3>
-      <p>The system automatically generates:</p>
-      <ul>
-        <li>Exercises adapted to individual patient progress</li>
-        <li>Culturally appropriate and contextualized material</li>
-        <li>Varied content to maintain motivation and engagement</li>
-        <li>Personalized feedback based on performance</li>
-        <li>Exercise sequences that follow established therapeutic principles</li>
-      </ul>
-      
-      <h3>Technology Integration</h3>
-      <p>These three technologies work together to create a complete, adaptive, and scientifically evidence-based therapeutic experience, facilitating both autonomous practice and monitoring by professional therapists.</p>
-    `,
+    techModalContent: "<h3>Large Language Models (LLM)</h3><p>We use advanced language models to generate personalized therapeutic content that adapts to each patient's level and needs. These models are capable of creating contextually appropriate and culturally relevant exercises for Spanish speakers.</p><h3>Intelligent Agents</h3><p>Our AI agents work together to:</p><ul><li>Structure coherent and clinically valid therapeutic exercises</li><li>Validate the clinical coherence of generated content</li><li>Adapt difficulty based on patient performance</li><li>Culturally personalize content for the Spanish-speaking context</li><li>Maintain therapeutic continuity between sessions</li></ul><h3>Automatic Content Generation</h3><p>The system automatically generates:</p><ul><li>Exercises adapted to individual patient progress</li><li>Culturally appropriate and contextualized material</li><li>Varied content to maintain motivation and engagement</li><li>Personalized feedback based on performance</li><li>Exercise sequences that follow established therapeutic principles</li></ul><h3>Technology Integration</h3><p>These three technologies work together to create a complete, adaptive, and scientifically evidence-based therapeutic experience, facilitating both autonomous practice and monitoring by professional therapists.</p>",
+
+    // Mobile App
+    mobileTitle: "Mobile App for Patients",
+    mobileText: "RehabilitIA's mobile app is specifically designed for people with aphasia: simple navigation, few options per screen, large buttons, clear instructions, and visual-auditory support. Each exercise automatically adapts to patient performance, following VNeST and Spaced Retrieval protocols.",
+
+    // Web Platform
+    webTitle: "Web Platform for Therapists",
+    webText: "The web platform provides therapists with a clear and comprehensive dashboard to review each patient's progress, analyze their performance, adjust AI-generated exercises, and manage professional registration requests. It allows integrating clinical judgment with intelligent tools for more precise and personalized rehabilitation.",
+
+    // Timeline
+    timelineTitle: "Project Timeline",
+    timelineSubtitle: "RehabilitIA begins in 2025 as the first Spanish-language system combining AI agents and evidence-based therapies for language rehabilitation.",
+    timeline2025Year: "2025",
+    timeline2025Items: [
+      "Problem formulation and literature review.",
+      "System architecture design.",
+      "Initial integration of AI agents and language models.",
+      "Development of mobile app and web platform.",
+      "Preliminary testing with therapists.",
+      "Thesis writing and defense."
+    ],
+    timeline2026Year: "2026 — Ongoing",
+    timeline2026Items: [
+      "Extension of the system to new therapies.",
+      "Integration of automatic speech assessment.",
+      "Expanded clinical trials.",
+      "Academic publication of results.",
+      "Preparation for larger-scale deployment."
+    ],
+
+    // Team
+    teamTitle: "Our Team – Researchers",
+    teamSubtitle: "RehabilitIA is developed by an interdisciplinary team from Universidad de los Andes, integrating engineering, user-centered design, and research in health technologies.",
+    teamRubenName: "Prof. Rubén Manrique",
+    teamRubenRole: "Lead Researcher",
+    teamAndreaHName: "Prof. Andrea Herrera",
+    teamAndreaHRole: "Faculty Advisor",
+    teamAndreaHAffiliation: "Universidad de los Andes",
+    teamAndreaGName: "Andrea Galindo",
+    teamAndreaGRole: "Researcher",
+    teamSantiagoName: "Santiago Navarrete",
+    teamSantiagoRole: "Researcher",
+
+    // Footer
+    footerRights: "All rights reserved.",
+    footerUniversity: "Universidad de los Andes | Monitored by Ministry of Education",
+    footerRecognition: "Recognition as University: Decree 1297 of May 30, 1964.",
+    footerLegalEntity: "Legal entity recognition: Resolution 28 of February 23, 1949 — Ministry of Justice.",
+    footerAddress: "Mario Laserna Building — Cra 1 Este No. 19A-40 Bogotá (Colombia) | Tel: (571) 3394949 Ext: 2860, 2861, 2862 | Fax: (571) 3324325",
+    footerDepartment: "© 2025 — Department of Systems and Computing Engineering",
   }
 };

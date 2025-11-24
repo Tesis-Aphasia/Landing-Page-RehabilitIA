@@ -1,8 +1,13 @@
 import React from "react";
+import { useLanguage } from "../context/LanguageContext";
+import { translations } from "../translations/translations";
 import "../styles/MobileApp.css";
 import appMockup from "../assets/mobile_app.png";
 
 export default function MobileApp() {
+  const { language } = useLanguage();
+  const t = translations[language];
+
   return (
     <section
       id="mobile-app"
@@ -12,13 +17,10 @@ export default function MobileApp() {
 
         {/* TEXT BLOCK */}
         <div className="flex flex-col justify-center space-y-6 scroll-reveal">
-          <h2 className="mobileapp-title gradient-text">Aplicación Móvil para Pacientes</h2>
+          <h2 className="mobileapp-title gradient-text">{t.mobileTitle}</h2>
 
           <p className="mobileapp-text max-w-xl">
-            La aplicación móvil de RehabilitIA está diseñada específicamente para personas
-            con afasia: navegación simple, pocas opciones por pantalla, botones amplios,
-            instrucciones claras y soporte visual–auditivo. Cada ejercicio se adapta
-            automáticamente al desempeño del paciente, siguiendo VNeST y Spaced Retrieval.
+            {t.mobileText}
           </p>
         </div>
 

@@ -1,24 +1,28 @@
+import { useLanguage } from "../context/LanguageContext";
+import { translations } from "../translations/translations";
 import "../styles/Footer.css";
 
 const Footer = () => {
+  const { language } = useLanguage();
+  const t = translations[language];
+
   return (
     <footer className="footer-container">
       <div className="footer-content">
-        <p className="footer-text">© 2025 RehabilitIA — All rights reserved.</p>
+        <p className="footer-text">© 2025 RehabilitIA — {t.footerRights}</p>
 
-        <p className="footer-text">Universidad de los Andes | Vigilada Mineducación</p>
+        <p className="footer-text">{t.footerUniversity}</p>
 
         <p className="footer-text">
-          Reconocimiento como Universidad: Decreto 1297 del 30 de mayo de 1964.
+          {t.footerRecognition}
         </p>
 
         <p className="footer-text">
-          Reconocimiento personería jurídica: Resolución 28 del 23 de febrero de 1949 — Minjusticia.
+          {t.footerLegalEntity}
         </p>
 
         <p className="footer-text">
-          Edificio Mario Laserna — Cra 1 Este No. 19A-40 Bogotá (Colombia) |
-          Tel: (571) 3394949 Ext: 2860, 2861, 2862 | Fax: (571) 3324325
+          {t.footerAddress}
         </p>
 
         <p className="footer-text">
@@ -28,7 +32,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="footer-link"
           >
-            © 2025 — Departamento de Ingeniería de Sistemas y Computación
+            {t.footerDepartment}
           </a>
         </p>
       </div>

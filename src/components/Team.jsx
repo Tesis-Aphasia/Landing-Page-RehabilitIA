@@ -1,7 +1,12 @@
 import React from "react";
+import { useLanguage } from "../context/LanguageContext";
+import { translations } from "../translations/translations";
 import "../styles/Team.css";
 
 export default function Team() {
+  const { language } = useLanguage();
+  const t = translations[language];
+
   return (
     <section
       id="team"
@@ -13,11 +18,9 @@ export default function Team() {
 
         {/* Header */}
         <div className="flex flex-col items-center text-center space-y-4 mb-14 scroll-reveal">
-          <h2 className="team-title gradient-text">Nuestro Equipo – Investigadores</h2>
+          <h2 className="team-title gradient-text">{t.teamTitle}</h2>
           <p className="team-subtitle max-w-2xl">
-            RehabilitIA es desarrollado por un equipo interdisciplinario de la
-            Universidad de los Andes, integrando ingeniería, diseño centrado en el
-            usuario e investigación en tecnologías para la salud.
+            {t.teamSubtitle}
           </p>
         </div>
 
@@ -38,13 +41,13 @@ export default function Team() {
                 alt="Rubén Manrique"
               />
             </a>
-            <h3 className="team-name">Prof. Rubén Manrique</h3>
-            <p className="team-role">Lead Researcher</p>
+            <h3 className="team-name">{t.teamRubenName}</h3>
+            <p className="team-role">{t.teamRubenRole}</p>
             <p className="team-affiliation">rf.manrique@uniandes.edu.co</p>
           </div>
 
           {/* Andrea Herrera */}
-          <div className="team-card glass hover-glow">
+          <div className="team-card soft-card hover-lift">
             <a
               href="https://www.linkedin.com/in/andrea-herrera-564253/"
               target="_blank"
@@ -57,13 +60,13 @@ export default function Team() {
                 alt="Andrea Herrera"
               />
             </a>
-            <h3 className="team-name">Prof. Andrea Herrera</h3>
-            <p className="team-role">Faculty Advisor</p>
-            <p className="team-affiliation">Universidad de los Andes</p>
+            <h3 className="team-name">{t.teamAndreaHName}</h3>
+            <p className="team-role">{t.teamAndreaHRole}</p>
+            <p className="team-affiliation">{t.teamAndreaHAffiliation}</p>
           </div>
 
           {/* Andrea Galindo */}
-          <div className="team-card glass hover-glow">
+          <div className="team-card soft-card hover-lift">
             <a
               href="https://www.linkedin.com/in/algalindoc/"
               target="_blank"
@@ -76,13 +79,13 @@ export default function Team() {
                 alt="Andrea Galindo"
               />
             </a>
-            <h3 className="team-name">Andrea Galindo</h3>
-            <p className="team-role">Researcher</p>
+            <h3 className="team-name">{t.teamAndreaGName}</h3>
+            <p className="team-role">{t.teamAndreaGRole}</p>
             <p className="team-affiliation">al.galindo@uniandes.edu.co</p>
           </div>
 
           {/* Santiago */}
-          <div className="team-card glass hover-glow">
+          <div className="team-card soft-card hover-lift">
             <a
               href="https://www.linkedin.com/in/santiagonavarrete19"
               target="_blank"
@@ -95,8 +98,8 @@ export default function Team() {
                 alt="Santiago Navarrete"
               />
             </a>
-            <h3 className="team-name">Santiago Navarrete</h3>
-            <p className="team-role">Researcher</p>
+            <h3 className="team-name">{t.teamSantiagoName}</h3>
+            <p className="team-role">{t.teamSantiagoRole}</p>
             <p className="team-affiliation">s.navarretev@uniandes.edu.co</p>
           </div>
 
