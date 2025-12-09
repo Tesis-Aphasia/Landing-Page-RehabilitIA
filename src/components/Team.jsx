@@ -28,80 +28,88 @@ export default function Team() {
         <div className="team-grid grid max-w-5xl mx-auto gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
 
           {/* Rubén */}
-          <div className="team-card soft-card hover-lift">
-            <a
-              href="https://www.linkedin.com/in/ruben-francisco-manrique/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="team-photo-wrapper"
-            >
-              <img
-                className="team-photo"
-                src="https://raw.githubusercontent.com/Tesis-Aphasia/Landing-Page-RehabilitIA/refs/heads/main/src/assets/ruben_photo.jpg"
-                alt="Rubén Manrique"
-              />
-            </a>
-            <h3 className="team-name">{t.teamRubenName}</h3>
-            <p className="team-role">{t.teamRubenRole}</p>
-            <p className="team-affiliation">rf.manrique@uniandes.edu.co</p>
-          </div>
+          <a
+            href="https://www.linkedin.com/in/ruben-francisco-manrique/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="team-card-link"
+          >
+            <div className="team-card soft-card hover-lift">
+              <div className="team-photo-wrapper">
+                <img
+                  className="team-photo"
+                  src="https://raw.githubusercontent.com/Tesis-Aphasia/Landing-Page-RehabilitIA/refs/heads/main/src/assets/ruben_photo.jpg"
+                  alt="Rubén Manrique"
+                />
+              </div>
+              <h3 className="team-name">{t.teamRubenName}</h3>
+              <p className="team-role">{t.teamRubenRole}</p>
+              <p className="team-affiliation">rf.manrique@uniandes.edu.co</p>
+            </div>
+          </a>
 
           {/* Andrea Herrera */}
-          <div className="team-card soft-card hover-lift">
-            <a
-              href="https://www.linkedin.com/in/andrea-herrera-564253/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="team-photo-wrapper"
-            >
-              <img
-                className="team-photo"
-                src="https://raw.githubusercontent.com/Tesis-Aphasia/Landing-Page-RehabilitIA/refs/heads/main/src/assets/andrea_h_photo.jpg"
-                alt="Andrea Herrera"
-              />
-            </a>
-            <h3 className="team-name">{t.teamAndreaHName}</h3>
-            <p className="team-role">{t.teamAndreaHRole}</p>
-            <p className="team-affiliation">a-herrer@uniandes.edu.co</p>
-          </div>
+          <a
+            href="https://www.linkedin.com/in/andrea-herrera-564253/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="team-card-link"
+          >
+            <div className="team-card soft-card hover-lift">
+              <div className="team-photo-wrapper">
+                <img
+                  className="team-photo"
+                  src="https://raw.githubusercontent.com/Tesis-Aphasia/Landing-Page-RehabilitIA/refs/heads/main/src/assets/andrea_h_photo.jpg"
+                  alt="Andrea Herrera"
+                />
+              </div>
+              <h3 className="team-name">{t.teamAndreaHName}</h3>
+              <p className="team-role">{t.teamAndreaHRole}</p>
+              <p className="team-affiliation">a-herrer@uniandes.edu.co</p>
+            </div>
+          </a>
 
           {/* Andrea Galindo */}
-          <div className="team-card soft-card hover-lift">
-            <a
-              href="https://www.linkedin.com/in/algalindoc/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="team-photo-wrapper"
-            >
-              <img
-                className="team-photo"
-                src="https://raw.githubusercontent.com/Tesis-Aphasia/Landing-Page-RehabilitIA/refs/heads/main/src/assets/andrea_g_photo.jpg"
-                alt="Andrea Galindo"
-              />
-            </a>
-            <h3 className="team-name">{t.teamAndreaGName}</h3>
-            <p className="team-role">{t.teamAndreaGRole}</p>
-            <p className="team-affiliation">al.galindo@uniandes.edu.co</p>
-          </div>
+          <a
+            href="https://www.linkedin.com/in/algalindoc/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="team-card-link"
+          >
+            <div className="team-card soft-card hover-lift">
+              <div className="team-photo-wrapper">
+                <img
+                  className="team-photo"
+                  src="https://raw.githubusercontent.com/Tesis-Aphasia/Landing-Page-RehabilitIA/refs/heads/main/src/assets/andrea_g_photo.jpg"
+                  alt="Andrea Galindo"
+                />
+              </div>
+              <h3 className="team-name">{t.teamAndreaGName}</h3>
+              <p className="team-role">{t.teamAndreaGRole}</p>
+              <p className="team-affiliation">al.galindo@uniandes.edu.co</p>
+            </div>
+          </a>
 
           {/* Santiago */}
-          <div className="team-card soft-card hover-lift">
-            <a
-              href="https://www.linkedin.com/in/santiagonavarrete19"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="team-photo-wrapper"
-            >
-              <img
-                className="team-photo"
-                src="https://raw.githubusercontent.com/Tesis-Aphasia/Landing-Page-RehabilitIA/refs/heads/main/src/assets/santiago_photo.jpg"
-                alt="Santiago Navarrete"
-              />
-            </a>
-            <h3 className="team-name">{t.teamSantiagoName}</h3>
-            <p className="team-role">{t.teamSantiagoRole}</p>
-            <p className="team-affiliation">s.navarretev@uniandes.edu.co</p>
-          </div>
+          <a
+            href="https://www.linkedin.com/in/santiagonavarrete19"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="team-card-link"
+          >
+            <div className="team-card soft-card hover-lift">
+              <div className="team-photo-wrapper">
+                <img
+                  className="team-photo"
+                  src="https://raw.githubusercontent.com/Tesis-Aphasia/Landing-Page-RehabilitIA/refs/heads/main/src/assets/santiago_photo.jpg"
+                  alt="Santiago Navarrete"
+                />
+              </div>
+              <h3 className="team-name">{t.teamSantiagoName}</h3>
+              <p className="team-role">{t.teamSantiagoRole}</p>
+              <p className="team-affiliation">s.navarretev@uniandes.edu.co</p>
+            </div>
+          </a>
 
 
         </div>

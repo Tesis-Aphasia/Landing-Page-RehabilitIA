@@ -42,6 +42,17 @@
   color: #94a3b8;
 }
 
+/* Team Card Link Wrapper */
+.team-card-link {
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.team-card-link:hover {
+  text-decoration: none;
+}
+
 /* Team Cards */
 .team-card {
   padding: 2rem 1.5rem;
@@ -49,9 +60,10 @@
   text-align: center;
   transition: all 0.3s ease;
   border: 1px solid rgba(0, 102, 255, 0.1);
+  cursor: pointer;
 }
 
-.team-card:hover {
+.team-card-link:hover .team-card {
   border-color: rgba(6, 182, 212, 0.3);
 }
 
@@ -82,12 +94,12 @@
   transition: opacity 0.3s ease;
 }
 
-.team-card:hover .team-photo-wrapper::before {
+.team-card-link:hover .team-photo-wrapper::before {
   opacity: 1;
   animation: glow 2s ease-in-out infinite alternate;
 }
 
-.team-card:hover .team-photo-wrapper {
+.team-card-link:hover .team-photo-wrapper {
   transform: scale(1.1);
 }
 
