@@ -37,7 +37,7 @@ export default function Team() {
             >
               <img
                 className="team-photo"
-                src="https://media.licdn.com/dms/image/v2/C4D03AQFNma6N4gYeJg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1648573665311?e=1765411200&v=beta&t=dBktTTL-2k18aYME2TCUwjCvBQDIHfeXzQn5T5fFGZI"
+                src="https://raw.githubusercontent.com/Tesis-Aphasia/Landing-Page-RehabilitIA/refs/heads/main/src/assets/ruben_photo.jpg"
                 alt="Rubén Manrique"
               />
             </a>
@@ -56,13 +56,13 @@ export default function Team() {
             >
               <img
                 className="team-photo"
-                src="https://media.licdn.com/dms/image/v2/D4E03AQHERM0eQ9ALBA/profile-displayphoto-shrink_800_800/0/1517555013205?e=1765411200&v=beta&t=GDGk2ZUNDwTt12Y4ChbFgdnHaJgBs5p4b1WSZUX7cAY"
+                src="https://raw.githubusercontent.com/Tesis-Aphasia/Landing-Page-RehabilitIA/refs/heads/main/src/assets/andrea_h_photo.jpg"
                 alt="Andrea Herrera"
               />
             </a>
             <h3 className="team-name">{t.teamAndreaHName}</h3>
             <p className="team-role">{t.teamAndreaHRole}</p>
-            <p className="team-affiliation">{t.teamAndreaHAffiliation}</p>
+            <p className="team-affiliation">a-herrer@uniandes.edu.co</p>
           </div>
 
           {/* Andrea Galindo */}
@@ -75,7 +75,7 @@ export default function Team() {
             >
               <img
                 className="team-photo"
-                src="https://media.licdn.com/dms/image/v2/D4E03AQGM6cS7vIy58Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1708783332874?e=1765411200&v=beta&t=OdgcjozaUY8CdzW_a-ZGGl7zYnUagOeTYkil_-nXhlI"
+                src="https://raw.githubusercontent.com/Tesis-Aphasia/Landing-Page-RehabilitIA/refs/heads/main/src/assets/andrea_g_photo.jpg"
                 alt="Andrea Galindo"
               />
             </a>
@@ -94,7 +94,7 @@ export default function Team() {
             >
               <img
                 className="team-photo"
-                src="https://media.licdn.com/dms/image/v2/D4E03AQGpwK3Yy14xtQ/profile-displayphoto-shrink_800_800/B4EZSq5ifPHoAc-/0/1738033998196?e=1765411200&v=beta&t=f-ms8H-TEc69dcp5ed4DAZmEiItTP_z_dLpsyfMwFK0"
+                src="https://raw.githubusercontent.com/Tesis-Aphasia/Landing-Page-RehabilitIA/refs/heads/main/src/assets/santiago_photo.jpg"
                 alt="Santiago Navarrete"
               />
             </a>

@@ -56,10 +56,12 @@ export const translations = {
     // Mobile App
     mobileTitle: "Aplicación Móvil para Pacientes",
     mobileText: "La aplicación móvil de RehabilitIA está diseñada específicamente para personas con afasia: navegación simple, pocas opciones por pantalla, botones amplios, instrucciones claras y soporte visual–auditivo. Cada ejercicio se adapta automáticamente al desempeño del paciente, siguiendo VNeST y Spaced Retrieval.",
+    mobileButton: "Probar App Móvil Aquí",
 
     // Web Platform
     webTitle: "Plataforma Web para Terapeutas",
     webText: "La plataforma web ofrece a los terapeutas un panel claro y completo para revisar el progreso de cada paciente, analizar su desempeño, ajustar ejercicios generados por IA y gestionar solicitudes de registro profesional. Permite integrar criterio clínico con herramientas inteligentes para una rehabilitación más precisa y personalizada.",
+    webButton: "Probar Plataforma Web Aquí",
 
     // Timeline
     timelineTitle: "Línea de Tiempo del Proyecto",
@@ -158,10 +160,12 @@ export const translations = {
     // Mobile App
     mobileTitle: "Mobile App for Patients",
     mobileText: "RehabilitIA's mobile app is specifically designed for people with aphasia: simple navigation, few options per screen, large buttons, clear instructions, and visual-auditory support. Each exercise automatically adapts to patient performance, following VNeST and Spaced Retrieval protocols.",
+    mobileButton: "Try Mobile App Here",
 
     // Web Platform
     webTitle: "Web Platform for Therapists",
     webText: "The web platform provides therapists with a clear and comprehensive dashboard to review each patient's progress, analyze their performance, adjust AI-generated exercises, and manage professional registration requests. It allows integrating clinical judgment with intelligent tools for more precise and personalized rehabilitation.",
+    webButton: "Try Web Platform Here",
 
     // Timeline
     timelineTitle: "Project Timeline",
