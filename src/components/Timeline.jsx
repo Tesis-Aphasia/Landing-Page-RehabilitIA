@@ -55,6 +55,17 @@ export default function Timeline() {
                       <li key={j}>{item}</li>
                     ))}
                   </ul>
+                  {phase.paperUrl && (
+                    <a
+                      href={phase.paperUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="timeline-paper-link"
+                    >
+                      <span className="material-symbols-outlined" aria-hidden="true">description</span>
+                      {phase.paperLabel}
+                    </a>
+                  )}
                 </div>
               </div>
             );

@@ -28,6 +28,14 @@ export default function Hero() {
             <a href="#what-is-aphasia" className="btn-soft btn-soft-primary">
               {t.heroCtaPrimary}
             </a>
+            <a
+              href="https://doi.org/10.1007/978-3-032-35390-0_13"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-soft btn-soft-secondary"
+            >
+              {t.heroCtaPaper}
+            </a>
           </div>
         </div>
 

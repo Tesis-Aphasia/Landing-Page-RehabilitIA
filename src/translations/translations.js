@@ -11,6 +11,7 @@ export const translations = {
     heroSubtitle: "Plataforma web y móvil para la rehabilitación personalizada de la afasia en pacientes hispanohablantes, combinando modelos de lenguaje avanzados y flujos agentivos para generar ejercicios adaptativos, culturalmente apropiados y basados en evidencia.",
     heroCtaPrimary: "Conocer el proyecto",
     heroCtaSecondary: "Probar la app",
+    heroCtaPaper: "Ver el paper",
     navResults: "Resultados",
 
     // Aphasia Section
@@ -136,7 +137,9 @@ export const translations = {
           "Pruebas con pacientes reales con afasia.",
           "Publicación académica de resultados.",
           "Extensión del sistema a nuevas terapias."
-        ]
+        ],
+        paperUrl: "https://doi.org/10.1007/978-3-032-35390-0_13",
+        paperLabel: "Ver el paper"
       },
       {
         year: "Futuro",
@@ -190,6 +193,7 @@ export const translations = {
     heroSubtitle: "Web and mobile platform for personalized aphasia rehabilitation in Spanish-speaking patients, combining advanced language models and agentic flows to generate adaptive, culturally appropriate, and evidence-based exercises.",
     heroCtaPrimary: "Explore the project",
     heroCtaSecondary: "Try the app",
+    heroCtaPaper: "Read the paper",
     navResults: "Results",
 
     // Aphasia Section
@@ -315,7 +319,9 @@ export const translations = {
           "Testing with real aphasia patients.",
           "Academic publication of results.",
           "Extension of the system to new therapies."
-        ]
+        ],
+        paperUrl: "https://doi.org/10.1007/978-3-032-35390-0_13",
+        paperLabel: "Read the paper"
       },
       {
         year: "Future",
